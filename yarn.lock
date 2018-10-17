@@ -58,10 +58,10 @@
     superagent "^1.2.0"
     underscore.string "^3.2.2"
 
-"@artsy/reaction@^5.6.0":
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/@artsy/reaction/-/reaction-5.6.0.tgz#ed3992ad2b3211a15016ca544793992b556da621"
-  integrity sha512-OlSVO8zqowXRLdvOrWsly+vw/koAxDCxGhv4efXq5ZXX0gdPCRv39k96TWyshdTIgeECHHiAxsou+aqlILmV5A==
+"@artsy/reaction@^5.7.6":
+  version "5.7.7"
+  resolved "https://registry.yarnpkg.com/@artsy/reaction/-/reaction-5.7.7.tgz#a96c817831a47c418db78e973102d44fd4a94d02"
+  integrity sha512-hg6n0HKOERs0htTkSGiNjYRdcE+kuH+WM86EFFv1h5lGc/40bEO0A5b/71vey//XgcfP1lpgUUlxwHbz/lmcAw==
   dependencies:
     "@artsy/palette" "^2.19.1"
     cheerio "^1.0.0-rc.2"
@@ -98,7 +98,7 @@
     react-spring "^5.7.2"
     react-stripe-elements "^2.0.1"
     react-styled-flexboxgrid "^2.2.0"
-    react-tracking "^5.3.0"
+    react-tracking "^5.4.1"
     react-transition-group "^2.3.0"
     react-url-query "^1.1.4"
     react-waypoint "^7.3.3"
@@ -1393,6 +1393,7 @@ antigravity@artsy/antigravity:
   version "0.1.3"
   resolved "https://codeload.github.com/artsy/antigravity/tar.gz/a4438d2fe9d0cdf71f1c47faba371cd3d004e140"
   dependencies:
+    coffeescript "1.11.1"
     express "*"
 
 any-observable@^0.2.0:
@@ -3748,15 +3749,15 @@ copy-descriptor@^0.1.0:
   resolved "https://registry.yarnpkg.com/copy-descriptor/-/copy-descriptor-0.1.1.tgz#676f6eb3c39997c2ee1ac3a924fd6124748f578d"
   integrity sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
 
+core-js@2.5.7, core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
+  version "2.5.7"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
+  integrity sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
+
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
   integrity sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
-
-core-js@^2.4.0, core-js@^2.5.0, core-js@^2.5.7:
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.7.tgz#f972608ff0cead68b841a16a932d0b183791814e"
-  integrity sha512-RszJCAxg/PP6uzXVXL6BsxSXx/B05oJAQ2vkJRjyjrEcNVycaqOmNb5OTxZPE3xa5gwZduqza6L9JOCenh/Ecw==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -4099,8 +4100,6 @@ dd-trace@artsy/dd-trace-js#artsy:
     semver "^5.5.0"
     shimmer "^1.2.0"
     url-parse "^1.4.3"
-  optionalDependencies:
-    "@airbnb/node-memwatch" "^1.0.2"
 
 debounce@~1.0.0:
   version "1.0.2"
@@ -4246,10 +4245,10 @@ deep-object-diff@^1.1.0:
   resolved "https://registry.yarnpkg.com/deep-object-diff/-/deep-object-diff-1.1.0.tgz#d6fabf476c2ed1751fc94d5ca693d2ed8c18bc5a"
   integrity sha512-b+QLs5vHgS+IoSNcUE4n9HP2NwcHj7aqnJWsjPtuG75Rh5TOaGt0OjAYInh77d5T16V5cRDC+Pw/6ZZZiETBGw==
 
-deepmerge@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.1.1.tgz#e862b4e45ea0555072bf51e7fd0d9845170ae768"
-  integrity sha512-urQxA1smbLZ2cBbXbaYObM1dJ82aJ2H57A1C/Kklfh/ZN1bgH4G/n5KWhdNfOK11W98gqZfyYj7W4frJJRwA2w==
+deepmerge@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha512-R9hc1Xa/NOBi9WRVUWg19rl1UB7Tt4kuPd+thNJgFZoxXsTz7ncaPaeIm+40oSGuP33DfMb4sZt1QIGiJzC4EA==
 
 default-require-extensions@^1.0.0:
   version "1.0.0"
@@ -11892,12 +11891,13 @@ react-themeable@^1.1.0:
   dependencies:
     object-assign "^3.0.0"
 
-react-tracking@^5.3.0:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/react-tracking/-/react-tracking-5.4.1.tgz#2a85793326aadefa9c3955332181279904fa72c4"
-  integrity sha512-945FcLuEjUSFCWF9zRPVLU9pNZf3lDO2GNhICWv3ZtqTkeI6eo2vzvrOSb5SaMYevesdwAIFmmQGCx8tmnZI6Q==
+react-tracking@^5.4.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/react-tracking/-/react-tracking-5.5.1.tgz#cf0ab300cbb495e930142d979313bed845a77b38"
+  integrity sha512-W+1lUf6V1XPq48dSfzKd4kuakFnnnsdRK4URHPDsNmzco0SjcOYS33i+ekAFNq1uprLRirbnMHfeTA0qsT5Cqg==
   dependencies:
-    deepmerge "^2.1.1"
+    core-js "2.5.7"
+    deepmerge "^2.2.1"
     hoist-non-react-statics "^3.0.1"
 
 react-transition-group@^2.2.0, react-transition-group@^2.3.0:
