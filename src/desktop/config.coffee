@@ -82,7 +82,6 @@ module.exports =
   MOBILE_MEDIA_QUERY: "only screen and (max-width: 640px)"
   MOBILE_URL: 'https://m.artsy.net'
   NEW_ARTIST_PAGE_THRESHOLD: 10 # all users will get the new page.
-  NEW_AUTH_MODAL: true
   NODE_ENV: 'development'
   OPENREDIS_URL: null
   PARSELY_KEY: 'artsy.net'
