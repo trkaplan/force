@@ -143,7 +143,6 @@ workflows:
       - push_staging_image:
           <<: *only_master
           requires:
-            - test
             - acceptance
             - build
       - deploy_hokusai_staging:
